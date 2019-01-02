@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: #5e5c5c;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -39,14 +39,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: rgba(55, 55, 55, 0.9);
+    background: rgba(250, 243, 218, 0.9);
     list-style: none;
     transform: translate3d(0px, -100%, 0px);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0px, 0px, 0px); }
   .menu-branding {
-    background: rgba(68, 68, 68, 0.9);
+    background: rgba(253, 250, 240, 0.9);
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -71,7 +71,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: #5e5c5c;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
@@ -93,11 +93,11 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
-  color: #fff;
+  background: #fdfaf0;
+  color: #5e5c5c;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Muli', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/analyzing-artist-browsing-416396.jpg);
@@ -111,7 +111,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.9); }
+      background: rgba(253, 250, 240, 0.9); }
 
 h1, h2, h3 {
   margin: 0;
@@ -121,7 +121,7 @@ h1, h2, h3 {
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba #494949, 0.5; }
+    background: rgba #fefdf9, 0.5; }
 
 a {
   color: #fff;
@@ -170,7 +170,7 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #515151;
+    background: white;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
 
@@ -201,9 +201,9 @@ main {
     .boxes div:hover {
       padding: 0.5rem 1.5;
       background: #eece1a;
-      color: #000; }
+      color: #5e5c5c; }
       .boxes div:hover span {
-        color: #000; }
+        color: #5e5c5c; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -212,21 +212,21 @@ main {
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #eece1a;
-    color: #000; }
+    color: #5e5c5c; }
 
 .btn-dark {
-  background: black;
+  background: #d2a81c;
   color: #fff; }
 
 .btn-light {
-  background: #c4c4c4;
+  background: white;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
-  color: #fff;
+  background: #f7ebc3;
+  color: #5e5c5c;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
