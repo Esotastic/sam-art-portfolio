@@ -1,7 +1,7 @@
-$primary-color: #fdfaf0;
-$secondary-color: #eece1a;
+$primary-color: #848AB0;
+$secondary-color: #FDFAF0;
 $show-home-image: true;
-$home-image: url(../img/analyzing-artist-browsing-416396.jpg);
+$home-image: url();
 $background-opacity: 0.9;
 
 @mixin easeOut {
@@ -17,7 +17,7 @@ $background-opacity: 0.9;
 
 			&:after {
 				content: '';
-				position: absolute;
+				position: fixed;
 				top: 0;
 				right: 0;
 				width: 100%;
@@ -32,7 +32,7 @@ $background-opacity: 0.9;
 //Set text color
 @function set-text-color($color) {
 	@if (lightness($color) > 40) {
-		@return #5e5c5c;
+		@return #FDFAF0;
 	} @else {
 		@return #fff;
 	}
